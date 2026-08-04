@@ -1,0 +1,13 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.5.2
+flask-restful==0.3.10
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+requests==2.31.0
+bcrypt==4.1.2
+numpy==1.26.4
+Pillow==10.1.0
+pydantic==2.0.0
+mlflow==3.14.0
+streamlit>=1.35.0

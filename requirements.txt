@@ -1,0 +1,7 @@
+streamlit>=1.35.0
+pandas
+numpy==1.26.4
+Pillow
+requests
+python-dotenv
+scikit-learn

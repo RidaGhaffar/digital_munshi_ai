@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: digitalmunshi-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: digitalmunshi-backend
+  template:
+    metadata:
+      labels:
+        app: digitalmunshi-backend
+    spec:
+      containers:
+        - name: digitalmunshi-backend
+          image: digitalmunshi-backend:v1
+          ports:
+            - containerPort: 5000
+          env:
+            - name: PORT
+              value: "5000"
